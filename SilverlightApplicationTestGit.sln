@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplicationTestGit", "SilverlightApplicationTestGit\SilverlightApplicationTestGit.csproj", "{6311062C-C51C-4E26-B7E5-E25178E3A360}"
+	ProjectSection(ProjectDependencies) = postProject
+		{093B2147-2AD1-4112-9BB9-768C2CB895A5} = {093B2147-2AD1-4112-9BB9-768C2CB895A5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplicationTestGit.Web", "SilverlightApplicationTestGit.Web\SilverlightApplicationTestGit.Web.csproj", "{093B2147-2AD1-4112-9BB9-768C2CB895A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6311062C-C51C-4E26-B7E5-E25178E3A360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6311062C-C51C-4E26-B7E5-E25178E3A360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6311062C-C51C-4E26-B7E5-E25178E3A360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6311062C-C51C-4E26-B7E5-E25178E3A360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093B2147-2AD1-4112-9BB9-768C2CB895A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093B2147-2AD1-4112-9BB9-768C2CB895A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093B2147-2AD1-4112-9BB9-768C2CB895A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093B2147-2AD1-4112-9BB9-768C2CB895A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
